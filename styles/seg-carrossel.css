@@ -1,0 +1,22 @@
+.segundo__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--laranja);
+    text-align: center;
+    background-color: var(--branco);
+    padding: 1em 0 0.5em 0;
+}
+
+@media screen and (min-width: 1024px){
+    .segundo__titulo{
+        font-size: 26px;
+        padding: 2em 0 1em 0;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .segundo__titulo{
+        font-size: 32px;
+        padding: 2em 0 1em 0;
+    }
+}
